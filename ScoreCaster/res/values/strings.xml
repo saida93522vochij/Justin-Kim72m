@@ -2,4 +2,13 @@
 <resources>
     <string name="hello">Hello World, ScoreCaster!</string>
     <string name="app_name">Score Caster</string>
+    <string name="time_setting_title">試合時間</string>
+    <string name="time_setting_summary">試合時間を設定して下さい</string>
+    <string name="time_setting_dialogtitle">試合時間を設定して下さい</string>
+    <string name="twitter_id_title">twitter ID</string>
+    <string name="twitter_id_summary">twitter IDを指定して下さい</string>
+    <string name="twitter_id_dialogtitle">twitter IDを指定して下さい</string>
+    <string name="twitter_pswd_title">twitter passward</string>
+    <string name="twitter_pswd_summary">twitter passwardを指定して下さい</string>
+    <string name="twitter_pswd_dialogtitle">twitter passwardを指定して下さい</string>
 </resources>

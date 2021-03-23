@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<PreferenceCategory
+		android:title="@string/app_name">
+		<ListPreference
+			android:key="list_key"
+			android:title="@string/time_setting_title"
+			android:summary="@string/time_setting_summary"
+			android:dialogTitle="@string/time_setting_dialogtitle"
+			android:entries="@array/time_list"
+			android:entryValues="@array/time_list_values"/>
+		<EditTextPreference
+			android:key="edittext_key"
+			android:title="@string/twitter_id_title"
+			android:summary="@string/twitter_id_summary"
+			android:dialogTitle="@string/twitter_id_dialogtitle"/>
+		<EditTextPreference
+			android:key="edittext_key"
+			android:title="@string/twitter_pswd_title"
+			android:summary="@string/twitter_pswd_summary"
+			android:dialogTitle="@string/twitter_pswd_dialogtitle"
+			android:password="true"
+			/>
+
+	</PreferenceCategory>
+</PreferenceScreen>
