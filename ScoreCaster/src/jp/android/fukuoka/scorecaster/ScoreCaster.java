@@ -28,6 +28,7 @@ public class ScoreCaster extends Activity {
 		menu.add(0,0,0, "設定").setIcon(android.R.drawable.ic_menu_preferences);
 		menu.add(0,1,1, "DB追加").setIcon(android.R.drawable.ic_menu_edit);
 		menu.add(0,2,2, "DB取得").setIcon(android.R.drawable.ic_menu_edit);
+		menu.add(0,3,3, "").setIcon(android.R.drawable.ic_menu_edit);
 		return true;
 	}
 
