@@ -4,6 +4,7 @@
 	<PreferenceCategory
 		android:title="@string/app_name">
 		<ListPreference
+			android:id="@+id/ListKey"
 			android:key="list_key"
 			android:title="@string/time_setting_title"
 			android:summary="@string/time_setting_summary"
@@ -11,17 +12,18 @@
 			android:entries="@array/time_list"
 			android:entryValues="@array/time_list_values"/>
 		<EditTextPreference
+			android:id="@+id/twitter_id"
 			android:key="edittext_key"
 			android:title="@string/twitter_id_title"
 			android:summary="@string/twitter_id_summary"
 			android:dialogTitle="@string/twitter_id_dialogtitle"/>
 		<EditTextPreference
+			android:id="@+id/twitter_pswd"
 			android:key="edittext_key"
 			android:title="@string/twitter_pswd_title"
 			android:summary="@string/twitter_pswd_summary"
 			android:dialogTitle="@string/twitter_pswd_dialogtitle"
-			android:password="true"
-			/>
+			android:password="true"/>
 
 	</PreferenceCategory>
 </PreferenceScreen>
